@@ -21,6 +21,8 @@ The project predicts houses prices upon categorial variables to fill in the form
 
 To achieve to this prediction I have tested several algorithms models from Scikit-Learn. The machine learning was trained trough supervised learning model with Linear regression and KnnRegression algorithms.
 
+The algorithm will analyse all categorial variables between the 15 neighbours with similar or close values to ouput a price.
+
 
 ### Technologies
 
