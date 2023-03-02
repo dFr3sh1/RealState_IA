@@ -1,0 +1,19 @@
+<div class="block">
+
+    <div>
+      <h1>Estimez le prix de votre immobilier </h1>
+    </div>
+  
+    <div class='cible'>
+  
+      <form method="POST" action="{% url 'price_prediction' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="button"> 
+          <button type="submit">Estimer</button> 
+        </div>
+      </form>
+  
+    </div>
+  
+  </div>

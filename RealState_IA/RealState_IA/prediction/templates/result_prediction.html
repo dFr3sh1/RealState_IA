@@ -1,0 +1,26 @@
+<html>
+
+  <head>
+    <title>Estimez Votre Bien</title>
+    {% comment %} <link rel="stylesheet" href="{% static "main.css" %}" /> {% endcomment %}
+  </head>
+
+  <body>
+
+    <div class="resultat">
+      {% if prediction_house_price %}
+        <p>Votre immobilier vault : {{ prediction_house_price }} $</p>
+      {% else %}
+        <p>Aucun prix n'a été prédit.</p>
+      {% endif %}
+
+        <div class="button">
+            <a href="{% url 'price_prediction' %}">
+            <button>Nouvell estimation</button>
+            </a>
+        </div>
+    </div>
+
+  </body>
+
+</html>
