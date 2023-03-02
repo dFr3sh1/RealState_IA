@@ -21,7 +21,11 @@ The project simulates houses prices upon categorial variables to fill in the for
 
 To achieve to this simulation, I have tested several algorithms models from Scikit-Learn. The machine learning was trained trough supervised learning model with Linear regression and KnnRegression algorithms.
 
-The algorithm will analyse all categorial variables between the 15 neighbours with similar or close values to ouput a price, the highest score from several tests was upon .86% with. Knn Regression model.
+The algorithm will analyse all categorial variables between the 15 neighbours with similar or close values to ouput a price, the highest score from several tests was upon 84% with Knn Regression model.
+
+### Jupyter
+
+The ipynb files show the algorithms, the process of modelisatiion, and data cleaning.
 
 
 ### Technologies
