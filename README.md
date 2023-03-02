@@ -1,6 +1,6 @@
 # Real State IA - Prediction Price App
 
-Prediction pricce application for Real State sector. Developped in Python 3.
+Price simulator application for Real State sector. Developped in Python 3.
 
 ## Table of Contents
 - General Info
@@ -17,11 +17,11 @@ This project aims develop my skills in AI, Data Analysis, algorithms, and Django
 
 This project was the final evaluataion of my course.
 
-The project predicts houses prices upon categorial variables to fill in the form.
+The project simulates houses prices upon categorial variables to fill in the form.
 
-To achieve to this prediction I have tested several algorithms models from Scikit-Learn. The machine learning was trained trough supervised learning model with Linear regression and KnnRegression algorithms.
+To achieve to this simulation, I have tested several algorithms models from Scikit-Learn. The machine learning was trained trough supervised learning model with Linear regression and KnnRegression algorithms.
 
-The algorithm will analyse all categorial variables between the 15 neighbours with similar or close values to ouput a price.
+The algorithm will analyse all categorial variables between the 15 neighbours with similar or close values to ouput a price, the highest score from several tests was upon .86% with. Knn Regression model.
 
 
 ### Technologies
