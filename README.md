@@ -35,6 +35,7 @@ django-phone-field 1.8.1
 sqlparse 0.4.3
 Pandas
 Scikit Learn
+Jupyter Notebook - ipykernel
 
 ### Launch
 
