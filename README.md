@@ -1,4 +1,4 @@
-# Real State IA - Prediction Price App
+# Real State IA - Price Simulator App
 
 Price simulator application for Real State sector. Developped in Python 3.
 
